@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+*{
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.icon{
+  width:80px;
+  height:80px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+p{
+  font-weight: normal;
+}
+
+h2{
+  font-weight: normal;
+}
+
+.prob_card{
+  box-shadow: 0 0 30px rgba(0,150,255,1);
+  width: 240px;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  padding: 20px 10px;
+  color: #00BFFF;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.prob_card:hover {
+  box-shadow: 0 0 40px rgba(0,255,0,0.5);
+  transform: scale(1.02);
+}
+
+.progressContainer{
+  margin-left: 20px;
+  margin-top:-40px;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  margin-top:-20px;
+  justify-content: space-between;
+}
+
+.starDiv img,.trophyDiv img{
+  height: 30px;
+  width: 30px;
+}
+
+.starDiv font,.trophyDiv font{
+  font-size: 1.7em;
+  color: #FFA500;
+  margin-bottom: 40px;
+  margin-left: 5px;
+}
+
+.trophyDiv font{
+  color: #444444;
+}
+
+.starDiv{
+  margin-left: 20px;
+}
+
+.trophyDiv{
+  margin-right: 20px;
+}
+.courtesy{
+  font-size: 0.9em;
+  margin-bottom: -20px;
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .prob_card{
+    width: 80vw;
+  }
+}
