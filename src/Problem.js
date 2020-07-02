@@ -122,7 +122,7 @@ class Problem extends Component {
 
             </div>
             <div className="main">
-              <EditorBoard/>
+              <EditorBoard data={this.state.data} width={window.innerWidth}/>
               <div className="question_container">
                 <div className="statement">
                   <img src={require('./assets/cat_icons/others.png')}/>

@@ -1,23 +1,14 @@
 .board{
   width: calc(50vw - 10px);
-  height: calc(50vw - 10px);
-  background-color: rgba(27,166,0,0.2);
+  background-color: rgba(27,166,0,0.8);
   text-align: center;
   margin-bottom: 10px;
 }
 
-.label{
-  color: #666666;
-  font-size: 3em;
-  transform: translateY(calc(25vw - 44px));
-}
 
 @media only screen and (max-width: 768px) {
   .board{
     width:calc(100vw - 35px);
-    height: calc(100vw - 35px);
   }
-  .label{
-    transform: translateY(calc(50vw - 44px));
-  }
+
 }
